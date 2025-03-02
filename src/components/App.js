@@ -1,6 +1,6 @@
-import './App.css';
-import catGif from "./assets/chat.gif"
-import catGif2 from "./assets/chat (28).gif"
+import '../style/App.css';
+import catGif from "../assets/chat.gif"
+import catGif2 from "../assets/chat (28).gif"
 
 function App() {
   return (
