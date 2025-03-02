@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click on the link to view the [online version](https://hellmanon.github.io/Portfolio/).
 
 ## Available Scripts
 
