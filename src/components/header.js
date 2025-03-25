@@ -1,6 +1,7 @@
 
 import React from "react";
-import "../style/header.css"
+import "../style/header.css";
+import logo from "../images/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo-thumbnail-removebg-preview.png";
 
 function Header() {
     
@@ -12,7 +13,7 @@ function Header() {
       
       {/* Logo à gauche */}
       <a className="navbar-brand" href="#">
-        <img src="#" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
+      <img src={logo} alt="logo" width="30" height="30" />
         Manon
       </a>
 
