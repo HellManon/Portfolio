@@ -1,6 +1,7 @@
 import '../style/App.css';
 import Header from "./header";
 
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import catGif from "../assets/chat.gif"
