@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c9049cb3.css",
-    "main.js": "/Portfolio/static/js/main.005a8890.js",
+    "main.css": "/Portfolio/static/css/main.37a5c39e.css",
+    "main.js": "/Portfolio/static/js/main.52fe4b77.js",
     "static/media/pngtree-girl-carton-character-study-png-image_12994564-removebg-preview.png": "/Portfolio/static/media/pngtree-girl-carton-character-study-png-image_12994564-removebg-preview.7696419bb183462ea66f.png",
     "static/media/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo-thumbnail-removebg-preview.png": "/Portfolio/static/media/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo-thumbnail-removebg-preview.3fecbdac08addf9e4fb0.png",
     "index.html": "/Portfolio/index.html",
-    "main.c9049cb3.css.map": "/Portfolio/static/css/main.c9049cb3.css.map",
-    "main.005a8890.js.map": "/Portfolio/static/js/main.005a8890.js.map"
+    "main.37a5c39e.css.map": "/Portfolio/static/css/main.37a5c39e.css.map",
+    "main.52fe4b77.js.map": "/Portfolio/static/js/main.52fe4b77.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9049cb3.css",
-    "static/js/main.005a8890.js"
+    "static/css/main.37a5c39e.css",
+    "static/js/main.52fe4b77.js"
   ]
 }
