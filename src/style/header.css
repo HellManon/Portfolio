@@ -1,35 +1,36 @@
-/* Taille du logo */
-.logo {
+header {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .logo {
     max-width: 40px;
     height: auto;
   }
   
-  /* Réglage en mode mobile */
-  @media (max-width: 991px) {
-    .navbar-brand {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  
-    /* Centrer le menu */
-    .navbar-collapse {
-      text-align: center;
-    }
-  }
-  
-  /* Alignement en desktop */
+  /* S'assurer que tout tient sur une ligne en desktop */
   @media (min-width: 992px) {
     .navbar .container-fluid {
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    
-    /* Centre le menu */
+  }
+  
+  /* Empêcher le débordement sur mobile */
+  @media (max-width: 991px) {
+    header {
+      padding: 10px;
+    }
+  
     .navbar-collapse {
-      flex-grow: 1;
-      justify-content: center;
+      text-align: center;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-top: 10px;
     }
   }
+
   
