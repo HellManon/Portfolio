@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js"; 
+import AOS from "aos"; // Import AOS
+import "aos/dist/aos.css"; // Styles d'AOS
 import "../style/home.css";
 import photoProfil from "../images/pngtree-girl-carton-character-study-png-image_12994564-removebg-preview.png";
 
@@ -7,6 +9,13 @@ function Home() {
   const typedElement = useRef(null);  // Création d'une référence pour le span
 
   useEffect(() => {
+
+    // Initialisation d'AOS
+    AOS.init({
+        duration: 2000,  // Durée de l'animation (en ms)
+        once: true,  // L'animation ne se joue qu'une seule fois
+      });
+
     const options = {
       strings: ["Java", "Angular", "React", "Node.js"],
       typeSpeed: 155,
@@ -31,7 +40,7 @@ function Home() {
       <div className="container">
         <div className="row align-items-center">
           {/* Colonne de gauche (texte) */}
-          <div className="col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div className="col-md-6" data-aos="fade-right">
             <h1>Manon</h1>
             <h2>
               Je suis développeuse{" "}
@@ -55,7 +64,7 @@ function Home() {
           </div>
 
           {/* Colonne de droite (photo) */}
-          <div className="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+          <div className="col-md-6" data-aos="fade-left" >
           <img src={photoProfil} alt="Photo" />
           </div>
         </div>
