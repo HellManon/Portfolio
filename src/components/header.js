@@ -10,7 +10,7 @@ function Header() {
   <div className="container-fluid">
     
     {/* Logo et titre à gauche */}
-    <a className="navbar-brand d-flex align-items-center" href="#">
+    <a className="navbar-brand d-flex align-items-center" href="https://www.linkedin.com/in/manonhell/">
       <img src={logo} alt="logo" className="logo me-2" />
       Manon
     </a>
@@ -30,7 +30,7 @@ function Header() {
         <li className="nav-item"><a href="#" className="nav-link">Projets</a></li>
         {/* Bouton LinkedIn dans le menu burger (uniquement en mobile) */}
         <li className="nav-item mt-3 d-lg-none">
-          <a href="https://www.linkedin.com/in/ton-profil" target="_blank" className="btn btn-primary w-100">
+          <a href="https://www.linkedin.com/in/manonhell/" target="_blank" className="btn btn-primary w-100">
             Contactez-moi
           </a>
         </li>
