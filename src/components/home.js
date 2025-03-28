@@ -13,7 +13,7 @@ function Home() {
     // Initialisation d'AOS
     AOS.init({
         duration: 2000,  // Durée de l'animation (en ms)
-        once: true,  // L'animation ne se joue qu'une seule fois
+        once: false,  // L'animation ne se joue qu'une seule fois
       });
 
     const options = {

@@ -1,6 +1,7 @@
 import '../style/App.css';
 import Header from "./header";
 import Home from "./home";
+import TechList from "./techList";
 
 
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+      <TechList />
     </div>
   );
 }
