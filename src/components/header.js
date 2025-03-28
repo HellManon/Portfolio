@@ -1,7 +1,7 @@
 
 import React from "react";
 import "../style/header.css";
-import logo from "../images/png-clipart-web-development-web-service-web-developer-digital-marketing-develop-trademark-logo-thumbnail-removebg-preview.png";
+import logo from "../images/logo.png";
 
 function Header() {
     

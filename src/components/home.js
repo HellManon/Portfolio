@@ -3,7 +3,7 @@ import Typed from "typed.js";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Styles d'AOS
 import "../style/home.css";
-import photoProfil from "../images/pngtree-girl-carton-character-study-png-image_12994564-removebg-preview.png";
+import photoProfil from "../images/profil.png";
 
 function Home() {
   const typedElement = useRef(null);  // Création d'une référence pour le span

@@ -2,7 +2,7 @@ import java from '../images/technos/java.png'
 import angular from '../images/technos/angular.png'
 import nodejs from '../images/technos/nodejs.svg'
 import react from '../images/technos/react.png'
-import python from '../images/technos/python-logo-programming-language-computer-programming-python-programming-basics-for-absolute-beginners-scripting-language-source-code-php-code-climate-inc-png-clipart.jpg'
+import python from '../images/technos/python.jpg'
 import maven from '../images/technos/maven.png'
 
 export const technologies = [
