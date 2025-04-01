@@ -1,0 +1,27 @@
+{
+    "compétences": {
+      "développement_programmation": {
+        "langages": ["Java", "PHP", "JavaScript", "HTML5", "CSS3", "SQL (MySQL, PostgreSQL)", "JSON", "YAML", "XML", "Bash", "Batch"],
+        "frameworks_bibliothèques": ["Spring Boot", "Maven", "Hibernate", "Lombok", "Jackson", "Symfony 2", "Bootstrap"],
+        "développement_web_api": ["Création et gestion d’API REST", "Documentation d’API (Swagger / OpenAPI)", "Sécurisation des endpoints (JWT, OAuth2)", "Gestion des requêtes HTTP avec Postman"],
+        "développement_logiciel_maintenance": ["Débogage et refactorisation de code", "Application des principes SOLID et MVC", "Gestion des logs (Log4j, SLF4J)", "Optimisation des performances"],
+        "tests_qualité_code": ["Tests unitaires et d’intégration (JUnit, Mockito)", "Couverture de code avec JaCoCo", "Tests automatisés"],
+        "gestion_projet_devops": ["Git", "GitHub", "GitLab", "GitKraken", "CI/CD", "Docker", "GitHub Actions"]
+      },
+      "systèmes_réseaux": {
+        "systèmes_exploitation_virtualisation": ["Windows (7, 8, 10, 11, Server)", "Linux (Ubuntu, Debian, CentOS)", "MacOS", "VMware", "VirtualBox"],
+        "administration_réseau_sécurité": ["Administration Windows/Linux", "Configuration TCP/IP, DHCP, DNS", "Sécurisation des postes", "Téléphonie IP"],
+        "déploiement_maintenance": ["Mastérisation et déploiement de postes", "Clonage et migration de systèmes", "Sauvegarde et restauration de données"]
+      },
+      "support_informatique_assistance": {
+        "gestion_incidents_demandes": ["Support N1/N2", "Hotline", "Prise en main à distance (TeamViewer, AnyDesk, VNC)"],
+        "formation_documentation": ["Rédaction de documentations techniques", "Assistance utilisateurs", "Gestion des tickets ITSM"]
+      },
+      "community_management_stratégie_digitale": {
+        "stratégie_réseaux_sociaux": ["Élaboration de stratégies", "Gestion et animation de communautés", "Compréhension des algorithmes"],
+        "création_contenu": ["Identité visuelle", "Montage et édition vidéo", "Optimisation pour l’accessibilité"],
+        "acquisition_engagement": ["Croissance organique et payante", "Publicité digitale", "Gestion des collaborations"],
+        "monétisation_analyse": ["Stratégies de vente", "Affiliation", "Outils analytiques"]
+      }   
+    }
+  }  

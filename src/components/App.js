@@ -2,6 +2,7 @@ import '../style/App.css';
 import Header from "./header";
 import Home from "./home";
 import TechList from "./techList";
+import Expertise from "./expertise";
 
 
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Home />
       <TechList />
+      <Expertise />
     </div>
   );
 }

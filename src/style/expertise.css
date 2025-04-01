@@ -1,0 +1,38 @@
+/* expertise.css */
+
+/* Centrer les listes avec padding mais aligner à gauche */
+ul.list-unstyled {
+    text-align: left;  /* Les items sont alignés à gauche */
+    padding-left: 20%;  /* Un peu de marge à gauche pour l'alignement */
+    padding-right: 10%; /* Un peu de marge à droite pour l'effet centré */
+    list-style-type: none;  /* Supprime les puces par défaut */
+  }
+  
+  li {
+    margin-bottom: 10px;
+    line-height: 170%;
+  }
+
+  li.d-flex.align-items-center span {
+    padding-left: 10px;  /* Ajoute de l'espace avant le texte */
+  }
+  
+  /* Centrer les sous-catégories */
+  .row {
+    justify-content: flex-start; /* Les colonnes sont alignées sur la gauche */
+  }
+  
+  h3 {
+    text-align: left;  /* Les titres des sous-catégories sont alignés à gauche */
+    padding-left: 20%;
+  }
+  
+  /* Animation de l'icône */
+  .fa-arrow-alt-circle-right {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .d-flex:hover .fa-arrow-alt-circle-right {
+    transform: translateX(5px); /* Un petit effet de décalage sur l'icône au hover */
+  }
+  

@@ -23,9 +23,9 @@ function Header() {
     {/* Menu centré */}
     <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul className="navbar-nav text-center">
-        <li className="nav-item"><a href="#" className="nav-link">Home</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Languages</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Compétences</a></li>
+        <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
+        <li className="nav-item"><a href="#techlist" className="nav-link">Languages</a></li>
+        <li className="nav-item"><a href="#expertise" className="nav-link">Compétences</a></li>
         <li className="nav-item"><a href="#" className="nav-link">Expériences</a></li>
         <li className="nav-item"><a href="#" className="nav-link">Projets</a></li>
         {/* Bouton LinkedIn dans le menu burger (uniquement en mobile) */}

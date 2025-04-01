@@ -1,0 +1,11 @@
+{
+    "compétences": {
+      "compétences_fonctionnelles": {
+        "gestion_organisation": ["Planification de projets", "Gestion d’un parc informatique", "Documentation et reporting"],
+        "analyse_conception": ["Spécifications fonctionnelles", "Modélisation de bases de données", "Architecture logicielle"],
+        "méthodologies_travail": ["Scrum", "Kanban", "Gestion de projet avec JIRA, Trello"],
+        "communication_relationnel": ["Formation utilisateurs", "Vulgarisation technique", "Relation client"],
+        "résolution_problèmes": ["Diagnostic matériel/logiciel", "Optimisation des performances", "Correction des failles de sécurité"]
+      }
+    }
+  }  

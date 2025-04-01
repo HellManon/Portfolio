@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import AOS from "aos";
-import "../style/techlist.css"
+import "../style/techlist.css";
 import { technologies } from "../datas/technologies";
 
 
@@ -11,8 +11,8 @@ function TechList() {
       }, []);
 
   return (
-    <section className="techlist">
-      <h2>Mes technos</h2>
+    <section className="techlist" id="techlist">
+      <h2 data-aos="fade">Mes technos</h2>
       <ul className="tech-list" data-aos="fade-down">
         {technologies.map((tech, index) => (
           <li key={index} className="tech-item">
