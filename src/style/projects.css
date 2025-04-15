@@ -1,0 +1,39 @@
+.card-img-top {
+    margin-top: 1%;
+    object-fit: cover;
+    height: 200px;
+  }
+
+.project-card {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    align-items: center;     /* Centrage horizontal */
+    height: 100%; 
+    padding-bottom: 1%;
+}
+
+.card-btn{
+    margin-bottom: 2.5%;
+    width: 160px;
+    margin-left: 2.5%;
+}
+.project-card:hover {
+    transform: scale(1.06);
+    box-shadow: 0 14px 16px rgba(0, 0, 0, 0.8);
+  }
+
+/*Format tablette*/
+@media (max-width: 1024px) {
+    
+    .card-body {
+        padding-bottom: 1px;
+    }
+}

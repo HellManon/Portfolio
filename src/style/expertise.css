@@ -22,7 +22,7 @@ ul.list-unstyled {
     justify-content: flex-start; /* Les colonnes sont alignées sur la gauche */
   }
   
-  h3 {
+  .h3-expertise {
     text-align: left;  /* Les titres des sous-catégories sont alignés à gauche */
     padding-left: 20%;
   }
@@ -36,3 +36,11 @@ ul.list-unstyled {
     transform: translateX(5px); /* Un petit effet de décalage sur l'icône au hover */
   }
   
+  @media (max-width: 768px) {
+ 
+    .h3-expertise{
+      text-align: center;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+}

@@ -3,6 +3,7 @@ import Header from "./header";
 import Home from "./home";
 import TechList from "./techList";
 import Expertise from "./expertise";
+import Projects from './projects';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <TechList />
       <Expertise />
+      <Projects  />
     </div>
   );
 }

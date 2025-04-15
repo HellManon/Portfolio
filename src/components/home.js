@@ -42,7 +42,7 @@ function Home() {
           {/* Colonne de gauche (texte) */}
           <div className="col-md-6" data-aos="fade-right">
             <h1>Manon</h1>
-            <h2>
+            <h2 className="left-align">
               Je suis développeuse{" "}
               <span ref={typedElement} className="typed"></span>
             </h2>

@@ -2,6 +2,10 @@
     cursor: inherit;
 }
 
+.left-align{
+    text-align: left;
+}
+
 @media (max-width: 768px) {
  
     .hero img {

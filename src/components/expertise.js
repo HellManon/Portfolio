@@ -17,7 +17,7 @@ const Expertise = () => {
 
   return (
     <div id="expertise">
-      <h2 data-aos="fade" className="text-center mb-5">Compétences techniques</h2>
+      <h2 data-aos="fade" className="text-center mb-5" data-aos="fade">Compétences techniques</h2>
       {Object.entries(skillsTechniques.compétences).map(([categorie, sousCategories]) => (
         <div key={categorie}>
           <div className="row">
@@ -27,7 +27,7 @@ const Expertise = () => {
                 className="col-12 col-md-6 mb-4"
                 data-aos="fade-up" // Animation fade-up
               >
-                <h3 className="text-primary">{sousCategorie.replace(/_/g, " ").toUpperCase()}</h3>
+                <h3 className="text-primary h3-expertise">{sousCategorie.replace(/_/g, " ").toUpperCase()}</h3>
                 <ul className="list-unstyled">
                   {competences.map((competence, index) => (
                     <li key={index} className="d-flex align-items-center">
@@ -42,7 +42,7 @@ const Expertise = () => {
         </div>
       ))}
 
-      <h2 data-aos="fade" className="text-center mt-5 mb-5">Compétences fonctionnelles</h2>
+      <h2 data-aos="fade" className="text-center mt-5 mb-5" data-aos="fade" >Compétences fonctionnelles</h2>
       {Object.entries(skillsFonctionnel.compétences).map(([categorie, sousCategories]) => (
         <div key={categorie}>
           <div className="row">
@@ -52,7 +52,7 @@ const Expertise = () => {
                 className="col-12 col-md-6 mb-4"
                 data-aos="fade-up" // Animation fade-up
               >
-                <h3 className="text-primary">{sousCategorie.replace(/_/g, " ").toUpperCase()}</h3>
+                <h3 className="text-primary h3-expertise">{sousCategorie.replace(/_/g, " ").toUpperCase()}</h3>
                 <ul className="list-unstyled">
                   {competences.map((competence, index) => (
                     <li key={index} className="d-flex align-items-center">
