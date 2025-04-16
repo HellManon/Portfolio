@@ -1,0 +1,55 @@
+[
+    {
+      "client": "LA POSTE (VIA CGI)",
+      "periode": "6 MOIS AVRIL – SEPTEMBRE 2023",
+      "jobRole": "DEVELOPPEUSE FULL STACK JAVA/ANGULAR",
+      "contexte": "Mission réalisée au sein de CGI pour le client La Poste, autour du développement d’une application interne dédiée à la gestion des tickets et de la satisfaction client. L’objectif était de proposer un outil avec visualisation en temps réel des indicateurs clés, pour améliorer la réactivité et la qualité de service.",
+      "activites": [
+        {
+          "titre": "Développement backend & fiabilité des données",
+          "points": [
+            "Refonte du backend avec Spring Boot pour améliorer les performances et faciliter la maintenance",
+            "Correction et amélioration des statistiques métier pour une meilleure précision des indicateurs affichés",
+            "Rédaction de documentation technique et mise en place de tests unitaires et d’intégration (JUnit, Mockito)"
+          ]
+        },
+        {
+          "titre": "Frontend Angular & UX",
+          "points": [
+            "Développement d’une interface ergonomique et fluide avec Angular 16, axée sur l'expérience utilisateur",
+            "Intégration des composants de visualisation en temps réel",
+            "Travail en autonomie sous la supervision d’un chef de projet, avec reporting régulier",
+            "Le projet a été finalisé avec une base technique solide, mais non mis en production avant la fin de la mission"
+          ]
+        }
+      ],
+      "techs": "Java 8, Spring Boot, Angular 16, GitLab, IntelliJ IDEA, Visual Studio Code, Windows"
+    },
+    {
+      "client": "CREDIT AGRICOLE (VIA CGI)",
+      "periode": "18 MOIS SEPTEMBRE 2021 – AVRIL 2023",
+      "jobRole": "DEVELOPPEUSE D'APPLICATIONS JAVA",
+      "contexte": "Mission réalisée au sein de CGI pour le compte du Crédit Agricole, dans une équipe en charge de la modernisation d’un logiciel interne de gestion des clients et des transactions. Les principaux enjeux étaient de renforcer la sécurité des accès utilisateurs et d’optimiser les performances des traitements automatisés.",
+      "activites": [
+        {
+          "titre": "Sécurité et automatisation des traitements",
+          "points": [
+            "Analyse des accès et transactions sensibles avec l’outil Brainwave iGRC afin d’identifier et corriger les failles de sécurité",
+            "Automatisation des extractions de données critiques à l’aide de scripts batch, permettant une nette amélioration des temps de traitement",
+            "Livraison autonome des développements dans un environnement technique exigeant"
+          ]
+        },
+        {
+          "titre": "Intégration continue et collaboration agile",
+          "points": [
+            "Intégration continue avec GitLab CI/CD : gestion des branches, revues de code, déploiements automatisés",
+            "Utilisation de Jenkins pour la gestion des pipelines de build et de déploiement",
+            "Participation aux rituels agiles, suivi des tâches et reporting via Jira",
+            "Travail en environnement Windows, avec Eclipse comme IDE principal"
+          ]
+        }
+      ],
+      "techs": "Java 8, Shell Bash, Brainwave iGRC, GitLab, Eclipse, Jenkins, Jira, Windows 10"
+    }
+  ]
+  

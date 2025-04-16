@@ -27,7 +27,7 @@ function Header() {
         <li className="nav-item"><a href="#techlist" className="nav-link">Languages</a></li>
         <li className="nav-item"><a href="#expertise" className="nav-link">Compétences</a></li>
         <li className="nav-item"><a href="#projets" className="nav-link">Projets</a></li>
-        <li className="nav-item"><a href="#" className="nav-link">Expériences</a></li>
+        <li className="nav-item"><a href="#experiences" className="nav-link">Expériences</a></li>
         {/* Bouton LinkedIn dans le menu burger (uniquement en mobile) */}
         <li className="nav-item mt-3 d-lg-none">
           <a href="https://www.linkedin.com/in/manonhell/" target="_blank" className="btn btn-primary w-100">

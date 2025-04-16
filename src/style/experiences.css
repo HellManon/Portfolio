@@ -1,0 +1,55 @@
+.article-experiences {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.article-experiences:hover {
+    transform: scale(1.015)!important;
+    box-shadow: 0 16px 18px rgba(0, 0, 0, 0.9);
+}
+
+.titre-experience {
+    flex-direction: column;
+  }
+
+.job-role {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.activite{
+    padding-top: 1%;
+}
+
+.liste {
+    margin-left: 5%;
+}
+
+.periode{
+    font-size: 1.2rem;
+}
+
+.environnement{
+    margin-top: 1.5%;
+}
+
+  @media (min-width: 768px) {
+    .titre-experience {
+      flex-direction: row;
+    }
+  
+    .titre-experience h4,
+    .titre-experience h5 {
+      margin-bottom: 0;      
+    }
+
+  }
+
+@media (max-width: 768px){
+
+    .periode{
+        margin-top: 2%;
+    }
+}
