@@ -5,6 +5,7 @@ import TechList from "./techList";
 import Expertise from "./expertise";
 import Projects from './projects';
 import Experiences from './experiences';
+import Footer from './footer';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Expertise />
       <Projects  />
       <Experiences />
+      <Footer />
     </div>
   );
 }
