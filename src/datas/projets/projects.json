@@ -1,15 +1,26 @@
 [
-    {
-      "id": "projet1",
-      "titre": "Mon premier projet",
-      "description": "Une appli React ultra stylée pour gérer des tâches.",
-      "lien": "https://github.com/toncompte/mon-premier-projet"
-    },
-    {
-      "id": "projet2",
-      "titre": "Bot Discord",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "lien": "https://github.com/toncompte/discord-bot"
-    }
-  ]
-  
+  {
+    "id": "portfolio",
+    "titre": "Portfolio",
+    "description": "Portfolio personnel développé en React, présentant mes compétences, projets et expériences en développement web.",
+    "lien": "https://github.com/HellManon/Portfolio"
+  },
+  {
+    "id": "heme-biotech",
+    "titre": "Heme Biotech",
+    "description": "Optimisation et correction d'une application d'analyse de tendances médicales pour Heme Biotech, en appliquant les bonnes pratiques Java et POO.",
+    "lien": "https://github.com/HellManon/FO_JAVA_P02"
+  },
+  {
+    "id": "park-it",
+    "titre": "Park’it",
+    "description": "Débogage et ajout de fonctionnalités à une application de paiement de parking, avec mise en place de tests unitaires et d'intégration (Java SE).",
+    "lien": "https://github.com/HellManon/FO_JAVA_P04"
+  },
+  {
+    "id": "safetynet-alerts",
+    "titre": "SafetyNet Alerts",
+    "description": "Développement d'une API REST en Spring Boot pour une application d'alerte d’urgence, avec gestion de données critiques et tests unitaires.",
+    "lien": "https://github.com/HellManon/FO_JAVA_P05"
+  }
+]

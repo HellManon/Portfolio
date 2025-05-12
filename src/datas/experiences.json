@@ -1,55 +1,209 @@
 [
-    {
-      "client": "LA POSTE (VIA CGI)",
-      "periode": "6 MOIS AVRIL – SEPTEMBRE 2023",
-      "jobRole": "DEVELOPPEUSE FULL STACK JAVA/ANGULAR",
-      "contexte": "Mission réalisée au sein de CGI pour le client La Poste, autour du développement d’une application interne dédiée à la gestion des tickets et de la satisfaction client. L’objectif était de proposer un outil avec visualisation en temps réel des indicateurs clés, pour améliorer la réactivité et la qualité de service.",
-      "activites": [
-        {
-          "titre": "Développement backend & fiabilité des données",
-          "points": [
-            "Refonte du backend avec Spring Boot pour améliorer les performances et faciliter la maintenance",
-            "Correction et amélioration des statistiques métier pour une meilleure précision des indicateurs affichés",
-            "Rédaction de documentation technique et mise en place de tests unitaires et d’intégration (JUnit, Mockito)"
-          ]
-        },
-        {
-          "titre": "Frontend Angular & UX",
-          "points": [
-            "Développement d’une interface ergonomique et fluide avec Angular 16, axée sur l'expérience utilisateur",
-            "Intégration des composants de visualisation en temps réel",
-            "Travail en autonomie sous la supervision d’un chef de projet, avec reporting régulier",
-            "Le projet a été finalisé avec une base technique solide, mais non mis en production avant la fin de la mission"
-          ]
-        }
-      ],
-      "techs": "Java 8, Spring Boot, Angular 16, GitLab, IntelliJ IDEA, Visual Studio Code, Windows"
-    },
-    {
-      "client": "CREDIT AGRICOLE (VIA CGI)",
-      "periode": "18 MOIS SEPTEMBRE 2021 – AVRIL 2023",
-      "jobRole": "DEVELOPPEUSE D'APPLICATIONS JAVA",
-      "contexte": "Mission réalisée au sein de CGI pour le compte du Crédit Agricole, dans une équipe en charge de la modernisation d’un logiciel interne de gestion des clients et des transactions. Les principaux enjeux étaient de renforcer la sécurité des accès utilisateurs et d’optimiser les performances des traitements automatisés.",
-      "activites": [
-        {
-          "titre": "Sécurité et automatisation des traitements",
-          "points": [
-            "Analyse des accès et transactions sensibles avec l’outil Brainwave iGRC afin d’identifier et corriger les failles de sécurité",
-            "Automatisation des extractions de données critiques à l’aide de scripts batch, permettant une nette amélioration des temps de traitement",
-            "Livraison autonome des développements dans un environnement technique exigeant"
-          ]
-        },
-        {
-          "titre": "Intégration continue et collaboration agile",
-          "points": [
-            "Intégration continue avec GitLab CI/CD : gestion des branches, revues de code, déploiements automatisés",
-            "Utilisation de Jenkins pour la gestion des pipelines de build et de déploiement",
-            "Participation aux rituels agiles, suivi des tâches et reporting via Jira",
-            "Travail en environnement Windows, avec Eclipse comme IDE principal"
-          ]
-        }
-      ],
-      "techs": "Java 8, Shell Bash, Brainwave iGRC, GitLab, Eclipse, Jenkins, Jira, Windows 10"
-    }
-  ]
-  
+  {
+    "client": "LA POSTE (VIA CGI)",
+    "periode": "6 MOIS AVRIL – SEPTEMBRE 2023",
+    "jobRole": "DEVELOPPEUSE FULL STACK JAVA/ANGULAR",
+    "contexte": "Mission réalisée au sein de CGI pour le client La Poste, autour du développement d’une application interne dédiée à la gestion des tickets et de la satisfaction client.",
+    "activites": [
+      {
+        "titre": "Développement backend & fiabilité des données",
+        "points": [
+          "Refonte du backend avec Spring Boot pour améliorer les performances et faciliter la maintenance",
+          "Correction et amélioration des statistiques métier pour une meilleure précision des indicateurs affichés",
+          "Rédaction de documentation technique et mise en place de tests unitaires et d’intégration (JUnit, Mockito)"
+        ]
+      },
+      {
+        "titre": "Frontend Angular & UX",
+        "points": [
+          "Développement d’une interface ergonomique et fluide avec Angular 16, axée sur l'expérience utilisateur",
+          "Intégration des composants de visualisation en temps réel",
+          "Travail en autonomie sous la supervision d’un chef de projet, avec reporting régulier"
+        ]
+      }
+    ],
+    "environnement": [
+      "Java 8", "Spring Boot", "Angular 16", "GitLab", "IntelliJ IDEA", "Visual Studio Code", "Windows"
+    ]
+  },
+  {
+    "client": "CREDIT AGRICOLE (VIA CGI)",
+    "periode": "18 MOIS SEPTEMBRE 2021 – AVRIL 2023",
+    "jobRole": "DEVELOPPEUSE D'APPLICATIONS JAVA",
+    "contexte": "Modernisation d’un logiciel interne de gestion des clients et des transactions. Objectifs : renforcer la sécurité des accès utilisateurs et optimiser les performances des traitements automatisés.",
+    "activites": [
+      {
+        "titre": "Sécurité et automatisation des traitements",
+        "points": [
+          "Analyse des accès et transactions sensibles avec Brainwave iGRC",
+          "Automatisation des extractions de données critiques à l’aide de scripts batch",
+          "Livraison autonome dans un environnement technique exigeant"
+        ]
+      },
+      {
+        "titre": "Intégration continue et collaboration agile",
+        "points": [
+          "CI/CD avec GitLab, revues de code et déploiements automatisés",
+          "Utilisation de Jenkins pour la gestion des pipelines",
+          "Participation aux rituels agiles, suivi via Jira"
+        ]
+      }
+    ],
+    "environnement": [
+      "Java 8", "Shell Bash", "Brainwave iGRC", "GitLab", "Eclipse", "Jenkins", "Jira", "Windows 10"
+    ]
+  },
+  {
+    "client": "SPIE INFOSERVICES",
+    "periode": "2 MOIS JUILLET – AOUT 2021",
+    "jobRole": "TECHNICIENNE INFORMATIQUE",
+    "contexte": "Renouvellement massif du parc informatique dans un environnement hospitalier actif.",
+    "activites": [
+      {
+        "titre": "Déploiement et support utilisateur",
+        "points": [
+          "Installation/configuration de postes via images système",
+          "Accompagnement à la prise en main",
+          "Contrôle qualité post-installation"
+        ]
+      },
+      {
+        "titre": "Logistique & gestion de projet terrain",
+        "points": [
+          "Réception, préparation et suivi du matériel",
+          "Planification des interventions",
+          "Reporting régulier de l’avancement"
+        ]
+      }
+    ],
+    "environnement": [
+      "Windows 10/11", "Active Directory", "SCCM", "MDT", "Outlook", "Pack Office", "outils de ticketing", "réseaux Ethernet"
+    ]
+  },
+  {
+    "client": "QUADRIA",
+    "periode": "6 MOIS JUILLET – DECEMBRE 2020",
+    "jobRole": "TECHNICIENNE INFORMATIQUE",
+    "contexte": "Renouvellement des postes informatiques en environnement itinérant.",
+    "activites": [
+      {
+        "titre": "Déploiement automatisé et migration de données",
+        "points": [
+          "Installation via scripts PowerShell/Bash",
+          "Sauvegarde et restauration des données utilisateurs",
+          "Validation utilisateur"
+        ]
+      },
+      {
+        "titre": "Support terrain & documentation",
+        "points": [
+          "Diagnostic post-déploiement",
+          "Traçabilité complète des interventions"
+        ]
+      }
+    ],
+    "environnement": [
+      "Windows 10", "PowerShell", "Active Directory", "MDT", "Outils de déploiement", "gestion de données"
+    ]
+  },
+  {
+    "client": "DB SCHENKER",
+    "periode": "3 MOIS AVRIL – JUIN 2019",
+    "jobRole": "TECHNICIENNE INFORMATIQUE – MOBILITE",
+    "contexte": "Remplacement de la flotte mobile dans un environnement logistique international.",
+    "activites": [
+      {
+        "titre": "Déploiement et configuration mobile",
+        "points": [
+          "Configuration Android/iOS avec standards entreprise",
+          "Installation des apps, accès sécurisés (VPN, MFA)"
+        ]
+      },
+      {
+        "titre": "Support et amélioration continue",
+        "points": [
+          "Assistance utilisateurs à distance",
+          "Création de procédures pour réduire les erreurs"
+        ]
+      }
+    ],
+    "environnement": [
+      "Android", "MDM", "Outlook mobile", "MFA", "VPN", "applications professionnelles"
+    ]
+  },
+  {
+    "client": "SNCF (VIA ECONOCOM)",
+    "periode": "5 MOIS OCTOBRE 2018 – FEVRIER 2019",
+    "jobRole": "TECHNICIENNE HELPDESK",
+    "contexte": "Support informatique du siège SNCF (incidents et demandes pour services critiques).",
+    "activites": [
+      {
+        "titre": "Support utilisateur niveau 1",
+        "points": [
+          "Traitement des incidents N1 via téléphone/email",
+          "Prise en main à distance (VNC, TeamViewer, SCCM)"
+        ]
+      },
+      {
+        "titre": "Gestion des priorités et documentation",
+        "points": [
+          "Escalade N2, documentation interne enrichie",
+          "Optimisation des procédures existantes"
+        ]
+      }
+    ],
+    "environnement": [
+      "Windows 7/10", "Active Directory", "SCCM", "GLPI", "EasyVista", "Exchange", "Outlook", "Pack Office"
+    ]
+  },
+  {
+    "client": "QUADRIA",
+    "periode": "1 MOIS OCTOBRE 2018",
+    "jobRole": "ADMINISTRATRICE RESEAUX",
+    "contexte": "Installation de postes dans un établissement scolaire avant la rentrée.",
+    "activites": [
+      {
+        "titre": "Installation & configuration réseau local",
+        "points": [
+          "Assemblage, déploiement d’images, tests",
+          "Installation des logiciels métiers"
+        ]
+      },
+      {
+        "titre": "Coordination sur site",
+        "points": [
+          "Support utilisateur après installation",
+          "Respect des délais serrés"
+        ]
+      }
+    ],
+    "environnement": [
+      "Windows 10", "Active Directory", "MDT", "LAN", "logiciels scolaires"
+    ]
+  },
+  {
+    "client": "CETIH",
+    "periode": "1 MOIS SEPTEMBRE 2018",
+    "jobRole": "TECHNICIENNE SUPPORT",
+    "contexte": "Remplacement du technicien titulaire pour assurer le support informatique.",
+    "activites": [
+      {
+        "titre": "Support technique de proximité",
+        "points": [
+          "Diagnostic et résolution rapide des incidents",
+          "Assistance configuration/mise à jour"
+        ]
+      },
+      {
+        "titre": "Documentation & gestion des tickets",
+        "points": [
+          "Optimisation de la documentation technique",
+          "Procédures simplifiées pour les utilisateurs"
+        ]
+      }
+    ],
+    "environnement": [
+      "Windows 7/10", "Active Directory", "Outils de ticketing", "Outlook", "Pack Office", "imprimantes réseau/locales"
+    ]
+  }
+]
