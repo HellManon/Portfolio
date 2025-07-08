@@ -45,6 +45,7 @@ const Footer = () => {
             <h6 className="fw-bold mb-3">Bonus</h6>
             <ul className="list-unstyled small bonus-list">
                 <li>COMING SOON</li>
+                
              {/* <li><a href="/cats">💥 SPA (à venir)</a></li>
               <li><a href="/404">Page 404 stylisée</a></li>
               <li><a href="/artiste">Mon univers artistique</a></li> */}
