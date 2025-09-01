@@ -17,7 +17,7 @@ function Home() {
       });
 
     const options = {
-      strings: ["Java", "Angular", "React", "Node.js"],
+      strings: ["Java", "IA", "Angular", "React", "Node.js"],
       typeSpeed: 155,
       backSpeed: 100,
       backDelay: 2000,
@@ -39,28 +39,40 @@ function Home() {
     <section id="home" className="hero section dark-background">
       <div className="container">
         <div className="row align-items-center">
-          {/* Colonne de gauche (texte) */}
-          <div className="col-md-6" data-aos="fade-right">
-            <h1>Manon</h1>
-            <h2 className="left-align">
-              Je suis développeuse{" "}
+            
+            <h2 className="left-align">Je suis développeuse{" "}
               <span ref={typedElement} className="typed"></span>
             </h2>
 
-            <p>
-              J’aide les entreprises à concevoir, optimiser et faire évoluer leurs applications.<br />
-              Passionnée par le développement, j’aime résoudre des problèmes techniques et créer des applications performantes qui font la différence. 
-              Je m’adapte rapidement aux défis et apporte des solutions concrètes avec une approche axée sur l’amélioration continue.
+          {/* Colonne de gauche (texte) */}
+          <div className="col-md-6 ps-md-5" data-aos="fade-right">
+
+            <p>Passionnée par l’intelligence artificielle, je me spécialise dans ce domaine avec une vision claire :<br />
+              👉 rendre l’IA accessible, locale et intégrable dans les projets concrets.
             </p>
 
+            <p>
+              Mon défi actuel :<br />
+              🚀 créer un framework IA 100% Java, pensé pour être natif, interopérable et prêt à s’intégrer dans tout l’écosystème existant.
+            </p>
+
+            <p>
+              L’objectif ?<br />
+              🎯 Offrir aux développeurs un outil fiable pour ajouter de l’intelligence embarquée à leurs applications, sans complexité inutile.
+            </p>
+
+            <p>Je crois à une IA :</p>
             <ul>
-              <li>Développement d’applications web Java / Angular</li>
-              <li>Optimisation et refonte de code</li>
-              <li>Approche pragmatique et rigoureuse</li>
+              <li>✔️ pratique</li>
+              <li>✔️ sobre</li>
+              <li>✔️ efficace</li>
             </ul>
 
-            <p>Vous cherchez une développeuse qui allie expertise et adaptabilité ?</p>
-            <p>Discutons-en !</p>
+            <p>… qui se met au service des développeurs et des entreprises.</p>
+
+            <p>
+              👉 Si vous partagez cette vision ou cherchez à collaborer sur des projets autour de Java, l’IA ou les systèmes embarqués, je serai ravie d’échanger avec vous.
+            </p>
           </div>
 
           {/* Colonne de droite (photo) */}

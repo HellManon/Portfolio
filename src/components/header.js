@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/header.css";
 import logo from "../images/logo.png";
-import { Link } from "react-router-dom"; // <-- Import du composant Link
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
   return (
@@ -11,7 +11,7 @@ function Header() {
         {/* Logo et titre à gauche */}
         <a className="navbar-brand d-flex align-items-center" href="https://github.com/HellManon" target="_blank">
           <img src={logo} alt="logo" className="logo me-2" />
-          Manon
+          <h1>Hell Manon</h1>
         </a>
 
         {/* Bouton hamburger pour mobile */}
@@ -30,11 +30,11 @@ function Header() {
         {/* Menu centré */}
         <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul className="navbar-nav text-center">
-            <li className="nav-item"><Link to="/" className="nav-link">Home</Link></li>
-            <li className="nav-item"><Link to="/techlist" className="nav-link">Languages</Link></li>
-            <li className="nav-item"><Link to="/expertise" className="nav-link">Compétences</Link></li>
-            <li className="nav-item"><Link to="/projects" className="nav-link">Projets</Link></li>
-            <li className="nav-item"><Link to="/experiences" className="nav-link">Expériences</Link></li>
+            <li className="nav-item"><Link to="/Portfolio#home" className="nav-link">Home</Link></li>
+            <li className="nav-item"><Link to="/Portfolio#techlist" className="nav-link">Languages</Link></li>
+            <li className="nav-item"><Link to="/Portfolio#expertise" className="nav-link">Compétences</Link></li>
+            <li className="nav-item"><Link to="/Portfolio#projets" className="nav-link">Projets</Link></li>
+            <li className="nav-item"><Link to="/Portfolio#experiences" className="nav-link">Expériences</Link></li>
 
             {/* Bouton LinkedIn mobile */}
             <li className="nav-item mt-3 d-lg-none">

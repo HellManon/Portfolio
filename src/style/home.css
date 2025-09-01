@@ -4,8 +4,12 @@
 
 .left-align{
     text-align: left;
+    margin-left: 1%;
 }
 
+p.col-md-6{
+    margin-left: 1%;
+}
 @media (max-width: 768px) {
  
     .hero img {
