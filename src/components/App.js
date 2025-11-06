@@ -1,7 +1,7 @@
 import '../style/App.css';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import Main from '../Pages/main';
-import Spa from '../components/spa';
+import Main from '../pages/main';
+import Spa from '../pages/spa/spa';
 
 const router = createBrowserRouter([
     {

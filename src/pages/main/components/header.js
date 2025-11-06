@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/header.css";
-import logo from "../images/logo.png";
+import logo from "../../../images/logo.png";
 import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {

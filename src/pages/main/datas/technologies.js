@@ -1,17 +1,17 @@
-import javaImg from '../images/technos/java.svg';
-import javascriptImg from '../images/technos/javascript.svg';
-import angularImg from '../images/technos/angular.svg';
-import typescriptImg from '../images/technos/typescript.svg';
-import nodejsImg from '../images/technos/node.svg';
-import reactImg from '../images/technos/react.svg';
-import pythonImg from '../images/technos/python.svg';
-import mavenImg from '../images/technos/maven.svg';
-import junitImg from '../images/technos/junit.svg';
-import mockitoImg from '../images/technos/mockito.svg';
-import bootstrapImg from '../images/technos/bootstrap.svg';
-import githubImg from '../images/technos/git.svg';
-import umlImg from '../images/technos/uml.svg';
-import springImg from '../images/technos/spring.svg';
+import javaImg from './images/technos/java.svg';
+import javascriptImg from './images/technos/javascript.svg';
+import angularImg from './images/technos/angular.svg';
+import typescriptImg from './images/technos/typescript.svg';
+import nodejsImg from './images/technos/node.svg';
+import reactImg from './images/technos/react.svg';
+import pythonImg from './images/technos/python.svg';
+import mavenImg from './images/technos/maven.svg';
+import junitImg from './images/technos/junit.svg';
+import mockitoImg from './images/technos/mockito.svg';
+import bootstrapImg from './images/technos/bootstrap.svg';
+import githubImg from './images/technos/git.svg';
+import umlImg from './images/technos/uml.svg';
+import springImg from './images/technos/spring.svg';
 
 export const technologies = {
   Languages: [
