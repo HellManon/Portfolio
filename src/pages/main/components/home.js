@@ -4,9 +4,14 @@ import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Styles d'AOS
 import "../style/home.css";
 import photoProfil from "../../../images/profil.png";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const typedElement = useRef(null);  // Création d'une référence pour le span
+  const navigate = useNavigate(); // Hook pour naviguer
+  const goToExpertise = () => {
+    navigate("/Portfolio/expertise"); // route vers la page Expertise
+  };
 
   useEffect(() => {
 
@@ -81,7 +86,14 @@ function Home() {
           </div>
         </div>
       </div>
+      <button 
+              className="btn btn-primary mt-3"
+              onClick={goToExpertise}
+            >
+              Mon expertise IA
+            </button>
     </section>
+    
   );
 }
 
